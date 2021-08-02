@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+
+[class*=col-]{
+
+    float: left;
+    width: 100%;
+}
+
+          /* navbar starts */
+.navbar{
+    background-color: rgb(58, 253, 188);
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.nav-header h1{
+  
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+   
+}
+
+.nav-menu a{
+    text-decoration: none;
+    padding: 10px 0px;
+    background-color: rgb(2, 212, 142);
+    color: white;
+    margin: 3px;
+    border-radius: 15px;
+}
+
+.nav-menu a:hover{
+    background-color: rgb(2, 168, 113);
+}
+
+.navbar::after{
+      content: " ";
+      display: table;
+      clear: both;
+  }
+           /* navbar ends */
+  
+ 
+           /* profile starts */
+
+          
+
+.profile{
+  /* text-align: center; */
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(58, 253, 188);
+  border-radius: 50%;
+}
+          
+.img{
+  margin-top: 25px;
+  text-align: center;
+  transform: perspective(800px) rotateY(180deg) ;
+  transition: transform 1s linear;
+  transition-delay: 1s;
+}
+
+.profile-desc{
+  
+}
+
+.profile-desc p{
+  margin: 0 auto;
+  width: 90%;
+  text-align: justify;
+}
+
+.profile-desc h1{
+  margin-top: 23px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.profile::after{
+
+  content: " ";
+  display: table;
+  clear: both;
+  }
+          
+          /* profile ends */
