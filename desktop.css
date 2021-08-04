@@ -28,11 +28,13 @@
    background-color: transparent;
    border-radius: 0px;
    padding: 10px ;
-   color: rgb(2, 168, 113);
+   color: white;
  }
 
  .nav-menu a:hover{
-    background-color: rgb(181, 255, 231);
+    background-color: rgb(2, 212, 142);
+    font-weight: bold;
+    border-radius: 25%;
  }
  
           /* profile starts */
