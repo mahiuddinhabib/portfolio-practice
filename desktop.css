@@ -39,10 +39,6 @@
  
           /* profile starts */
 
-.profile-desc{
-  float: right;
-}
-
 .profile-desc h1{
   font-size: 3.5rem;
   padding:5px;
@@ -54,15 +50,18 @@
   width: 70%;
 }
 
-.img{
-  margin-top: 15px;
-}
-
-
-.img:hover{
-  transform: perspective(800px) rotateY(180deg) ;
-  transition: transform 1s linear;
-}
-
           /* profile ends */
           
+          
+.dotted-hr {
+  margin-bottom: 30px;
+
+}
+
+.aboutme .aboutme-img {
+  width: auto;
+}
+
+.aboutme-desc p:first-child{
+  
+}
