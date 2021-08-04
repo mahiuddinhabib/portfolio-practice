@@ -58,16 +58,13 @@ p{
 
 /* profile starts */
 
-.profile {
-  /* text-align: center; */
+.profile-img {
+ text-align: center;
 }
 
-/* img {
-  height: 200px;
-  width: 200px;
-  background-color: rgb(58, 253, 188);
-  border-radius: 50%;
-} */
+.profile img {
+  width: 60%;
+}
 
 /* .img {
   margin-top: 25px;
@@ -87,7 +84,7 @@ p{
 }
 
 .profile-desc h1 {
-  margin-top: 23px;
+  margin-top: 0px;
   text-align: center;
   font-size: 2rem;
 }
@@ -125,7 +122,7 @@ p{
   
 }
 
-img {
+.aboutme-img img{
   height: 180px;
   border: white 3px solid;
   border-radius: 50%;
