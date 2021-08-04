@@ -90,7 +90,7 @@ p{
 }
 
 .profile::after {
-  content: " ";
+  content: "";
   display: table;
   clear: both;
 }
@@ -105,7 +105,6 @@ p{
   padding-top: 5px;
   padding: 10px;
 }
-
 .aboutme h2{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -119,11 +118,12 @@ p{
 }
 
 .aboutme-img {
-  
+
 }
 
 .aboutme-img img{
   height: 180px;
+  width: 180px;
   border: white 3px solid;
   border-radius: 50%;
   margin-top: 18px;
@@ -179,9 +179,10 @@ p{
   transition:background-color .7s, color .7s;
   }
 
-.aboutme::after{
+.clear{
   display: table;
   clear: both;
   color: " ";
 }
+
 /* about me ends */
