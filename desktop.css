@@ -47,21 +47,29 @@
 }
 
 .profile-desc p{
-  width: 70%;
+  width: 80%;
+}
+
+.profile-img{
+ 
 }
 
           /* profile ends */
           
-          
-.dotted-hr {
-  margin-bottom: 30px;
+          /* about me starts */
+
+.aboutme{
 
 }
+          
+.dotted-hr {
+  margin-bottom: 20px;
 
-.aboutme .aboutme-img {
-  width: auto;
 }
 
 .aboutme-desc p:first-child{
-  
+  padding-top: 20px;
+  margin-right: 3%;
 }
+
+         /* about me endts */
