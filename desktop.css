@@ -44,21 +44,21 @@
   padding:5px;
   margin-top: 2px;
   margin-bottom: 5px;
-}
+ }
 
 .profile-desc p{
   width: 80%;
-}
+ }
 
 .profile-img{
  
-}
+ }
 
           /* profile ends */
           
           /* card section starts */
 .card{
-  
+  margin-left: 6.25%;
 }
           
           
@@ -74,6 +74,7 @@
   width: auto;
   margin-right:3%;
 }
+
 .dotted-hr {
   margin-bottom: 20px;
 
