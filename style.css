@@ -95,11 +95,23 @@ p{
 }
 
 .card{
-  
+  height: 500px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgb(58, 253, 188);
+  color: white;
 }
 
-.card-icon{
-  
+.card-icon img{
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 5%;
+  margin-top: 120px;
+  background-color: white;
 }
 
 .card-heading{
@@ -109,6 +121,8 @@ p{
 .card-desc{
   
 }
+
+
 /* card section ends */
 
 /* about me starts */
@@ -117,7 +131,7 @@ p{
   color: white;
   text-align: center;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .aboutme h2{
   margin-top: 0px;
