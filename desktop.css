@@ -59,8 +59,12 @@
           /* card section starts */
 .card{
   margin-left: 6.25%;
+  height: 450px;
 }
           
+.card-icon img{
+  margin-top: 100px;
+}
           
           /* card section ends */
           
