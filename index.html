@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width:768px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
@@ -23,6 +26,7 @@
             <a href="#">Skills</a>
             <a href="#">Experience</a>
             <a href="#aboutme">About Me</a>
+            <a href="#contactme">Contact Me</a>
         </div>
     </div>
 
@@ -122,21 +126,34 @@
       </div>
             <div class="clear"></div>
             
-      <div class="contactme">
+            <!-- about me ends -->
+            
+      
+            
+    <div class="contactme" id="contactme">
+
         <h2>Contact Me</h2>
-        <hr class="contactme_hr">
+
+        <hr class="contactme-hr">
         
         <form action="mailto:mh.habib137@gmail.com" method="post" enctype="text/plain" accept-charset="utf-8">
-          <input type="text" name="name" id="" value="" placeholder="Your Name" />
-          <input type="text" name="email" id="" value="" placeholder="Your Email"/>
-          <textarea name="message" id= rows="10" cols="40" placeholder="Write Here"></textarea>
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="text" name="email" placeholder="Your Email">
+          <textarea name="message" rows="10" cols="40" placeholder="Write Here"></textarea>
           <button type="submit">Send</button>
           <button type="reset">Reset</button>
         </form>
-      </div>
-            
-    </div>  
-        <!-- about me ends -->
+        <div class="social-media">
+        <button> <i class="fa fa-facebook-official" aria-hidden="true" style="color: #4267B2"></i></button>
+        <button> <i class="fa fa-instagram" aria-hidden="true" style="color: #cd486b"></i></button>
+        <button> <i class="fa fa-twitter-square" aria-hidden="true" style="color: #1DA1F2"></i></button>
+        <button> <i class="fa fa-github" aria-hidden="true" style="color: #4078c0"></i></button>
+        <button><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0077b5"></i></button>
+        <button> <i class="fa fa-youtube-play" aria-hidden="true" style="color: #FF0000"></i></button>
+        
+        </div>
+   </div>
+        
 
 </body>
 </html>
