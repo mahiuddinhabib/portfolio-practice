@@ -250,6 +250,24 @@ p{
 .contactme h2{
 
 }
+
+.social-media h3{
+  line-height: 90%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.social-media h3:first-child{
+ margin-top: 30px;
+}
+
+
+.social-media button{
+  border: none;
+  border-radius: 6px;
+  margin: 10px 4px 0px 4px;
+  background-color: rgb(58, 253, 188);
+  font-size: 40px;
+}
 /* contac me ends */
 
 
