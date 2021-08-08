@@ -41,7 +41,7 @@ p{
   padding: 10px 0px;
   background-color: rgb(2, 212, 142);
   color: white;
-  margin: 3px;
+  margin: 3px 6px;
   border-radius: 15px;
 }
 
@@ -91,10 +91,9 @@ p{
 
 /* card section starts */
 .card-section{
-  height: 600px;
+  height: 1550px;
   position: relative;
   margin-top: 10px;
-  background-color: red;
 }
 
 .card1-front, .card1-back{
@@ -113,7 +112,7 @@ p{
 
 .card2-front, .card2-back{
   position: absolute;
-  top: 10px;
+  top: 520px;
   height: 500px;
   width: 90%;
   margin-left: 5%;
@@ -125,12 +124,51 @@ p{
   transition: transform .5s linear;
 }
 
-.card1-back, .card2-back{
+.card3-front, .card3-back{
+  position: absolute;
+  top: 1030px;
+  height: 500px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgb(58, 253, 188);
+  color: white;
+  backface-visibility: hidden;
+  transition: transform .5s linear;
+}
+
+
+.card1-back, .card2-back, .card3-back{
   transform: perspective(800px) rotateY(-180deg);
 } 
 
-.card1-front, .card2-front{
+.card1-front, .card2-front ,.card3-front{
   transform: perspective(800px) rotateY(0deg);
+}
+
+.card1:hover>.card1-back{
+  transform: perspective(800px) rotateY(0deg);
+}
+
+.card1:hover>.card1-front{
+  transform: perspective(800px) rotateY(180deg);
+}
+
+.card2:hover>.card2-back{
+  transform: perspective(800px) rotateY(0deg);
+}
+
+.card2:hover>.card2-front{
+  transform: perspective(800px) rotateY(180deg);
+}
+
+.card3:hover>.card3-back{
+  transform: perspective(800px) rotateY(0deg);
+}
+
+.card3:hover>.card3-front{
+  transform: perspective(800px) rotateY(180deg);
 }
 
 .card-icon img{
@@ -142,18 +180,23 @@ p{
   background-color: white;
 }
 
-.card1:hover>.card1-back{
-  transform: perspective(800px) rotateY(0deg);
-}
 
-.card1:hover>.card1-front{
-  transform: perspective(800px) rotateY(180deg);
-}
-.card-heading{
+.card-heading {
   
 }
 
 .card-desc{
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last:center ;
+  width: 85%;
+}
+
+.back-card-desc{
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: justify;
+  text-align-last:left ;
   
 }
 
@@ -171,7 +214,7 @@ p{
   color: white;
   text-align: center;
   padding: 10px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .aboutme h2{
@@ -271,6 +314,9 @@ p{
   margin:7px 0px;
 }
 
+.contactme form{
+  margin: 0px 6px;
+}
 .contactme form button{
   padding: 6px;
   margin:0px 7px;
