@@ -91,6 +91,11 @@
   margin-bottom: 0px;
 }
           
+.back-card-desc{
+  width: auto;
+  padding: 0 10px 10px 10px;
+}
+
 .card-icon img{
   margin-top: 70px;
 }
@@ -122,11 +127,36 @@
          /* about me endts */
          
          /* contact me starts */
-         
+.contactme{
+  padding: 30px 15px 10px 15px;
+}
+
+.contactme-hr{
+  margin-bottom: 35px;
+}
+
+.contactme button{
+  
+}
+.social-media{
+  padding-top: 26px;
+}
+
+.social-media button{
+  font-size: 40px;
+  margin: 10px;
+}
+
+.social-media-desc{
+  width: 250px;
+  margin: 0 auto;
+}
          
          /* contact me ends */
          
          /* footer starts */
-         
+.footer{
+  
+}
          
          /* footer ends */
