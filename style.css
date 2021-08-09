@@ -94,6 +94,7 @@ p{
   height: 1550px;
   position: relative;
   margin-top: 10px;
+  overflow: hidden;
 }
 
 .card1-front, .card1-back{
@@ -178,7 +179,7 @@ p{
   border-radius: 5%;
   margin-top: 120px;
   background-color: white;
-  box-shadow: 0 0 5px 5px rgb(2, 168, 113) ;
+  box-shadow: 0 0 5px 2px rgb(28, 212, 151) ;
 }
 
 

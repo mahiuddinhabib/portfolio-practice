@@ -57,13 +57,42 @@
           /* profile ends */
           
           /* card section starts */
-.card-front{
-  margin-left: 6.25%;
+.card-section{
+  height: 480px;
+}
+          
+.card1-front, .card1-back{
+  position: absolute;
+  top: 10px;
+  left: 6.25%;
+  margin: unset;
   height: 450px;
+}
+
+.card2-front, .card2-back{
+  position: absolute;
+  top: 10px;
+  left: 37.5%;
+  margin: unset;
+  height: 450px;
+}
+
+.card3-front, .card3-back{
+  position: absolute;
+  top: 10px;
+  left: 68.72%;
+  margin: unset;
+  height: 450px;
+}
+
+.card-desc{
+  width: auto;
+  padding: 0 10px;
+  margin-bottom: 0px;
 }
           
 .card-icon img{
-  margin-top: 100px;
+  margin-top: 70px;
 }
           
           /* card section ends */
@@ -91,3 +120,13 @@
 }
 
          /* about me endts */
+         
+         /* contact me starts */
+         
+         
+         /* contact me ends */
+         
+         /* footer starts */
+         
+         
+         /* footer ends */
