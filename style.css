@@ -239,6 +239,7 @@ p{
   border: white 3px solid;
   border-radius: 50%;
   margin-top: 18px;
+  box-shadow: 0 0 5px 5px ;
 
 }
 
@@ -354,9 +355,15 @@ p{
 .social-media button{
   border: none;
   border-radius: 6px;
-  margin: 10px 4px 0px 4px;
+  margin: 10px 4px 10px 4px;
   background-color: rgb(58, 253, 188);
-  font-size: 40px;
+  font-size: 35px;
+  /* background-color: white; */
+  /* box-shadow:inset 3px 3px 5px rgba(2, 195, 131, 0.315),inset -3px -3px 5px rgba(2, 195, 131, 0.315) ; */
+}
+
+.social-media button:hover{
+  box-shadow: 0 0 5px 5px rgb(2, 168, 113) ;
 }
 
 .clear1{
@@ -365,5 +372,34 @@ p{
   clear: both;
 }
 /* contac me ends */
+
+/* footer starts */
+.footer{
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer a{
+  margin: 0 25px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover{
+  background-color: rgb(51, 49, 49);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.footer p{
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+/* footer ends */
 
 
