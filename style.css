@@ -34,7 +34,6 @@ p{
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
-  padding-right: 20px;
 }
 
 .nav-menu a {
