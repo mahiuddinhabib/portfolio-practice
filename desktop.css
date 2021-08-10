@@ -40,6 +40,10 @@
  
           /* profile starts */
 
+.profile{
+
+}
+
 .profile-desc h1{
   font-size: 3.5rem;
   padding:5px;
@@ -47,9 +51,11 @@
   margin-bottom: 5px;
  }
 
-.profile-desc p{
-  width: 80%;
- }
+ .profile-desc p {
+  margin: 0 auto;
+  width: 98%;
+  text-align: justify;
+}
 
 .profile-img{
  
@@ -59,7 +65,7 @@
           
           /* card section starts */
 .card-section{
-  height: 480px;
+  height: 500px;
 }
           
 .card1-front, .card1-back{
@@ -99,6 +105,7 @@
 
 .card-icon img{
   margin-top: 70px;
+ 
 }
           
           /* card section ends */
@@ -140,7 +147,7 @@
   
 }
 .social-media{
-  padding-top: 26px;
+  padding-top: 20px;
 }
 
 .social-media button{
@@ -151,6 +158,7 @@
 .social-media-desc{
   width: 250px;
   margin: 0 auto;
+  padding-top: 10px;
 }
          
          /* contact me ends */

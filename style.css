@@ -241,6 +241,7 @@ p{
   border: white 3px solid;
   border-radius: 50%;
   margin-top: 18px;
+  cursor: none;
 }
 
 .aboutme-desc {
@@ -291,6 +292,7 @@ p{
   color:rgb(2, 212, 142) ;
   font-weight: bold;
   transition:background-color .7s, color .7s;
+  cursor: pointer;
   }
 
 .clear{
@@ -336,6 +338,7 @@ textarea{
 
 .contactme form button:hover{
   box-shadow: 0 0 5px 3px rgb(2, 168, 113) ;
+  cursor: pointer;
 }
 
 .contactme h2{
@@ -372,6 +375,7 @@ textarea{
 
 .social-media button:hover{
   box-shadow: 0 0 5px 5px rgb(2, 168, 113) ;
+  cursor: pointer;
 }
 
 .clear1{
